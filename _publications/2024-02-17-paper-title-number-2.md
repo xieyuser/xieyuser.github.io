@@ -1,12 +1,12 @@
 ---
-title: "MCGMapper: Light-Weight Incremental Structure from Motion and Visual Localization With Planar Markers and Camera Groups"
+title: "Fast-robust book information extraction system for automated intelligence library"
 collection: publications
 category: conferences
 # permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about marker mapping and localization.'
+excerpt: 'This paper is about book information extraction system for automated intelligence library.'
 date: 2024-06-31
-venue: 'International Conference on Intelligent Robots and Systems (IROS) · IROS 2024. 14 October- 18 October 2024 | Abu Dhabi, UAE'
-paperurl: 'https://arxiv.org/abs/2405.16599'
+venue: ' 2021 IEEE International Conference on Artificial Intelligence and Industrial Design (AIID). 28 May- 30 May 2021 | Guangzhou, China'
+paperurl: 'https://ieeexplore.ieee.org/document/9456499'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
