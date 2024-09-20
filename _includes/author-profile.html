@@ -25,11 +25,9 @@
       var authorAvatars = document.querySelectorAll('.author__avatar img');
 
       authorAvatars.forEach(function(avatar) {
-        // 当鼠标悬停在图片上时，切换到悬停图像
         avatar.addEventListener('mouseover', function() {
           this.src = this.getAttribute('data-hover');
         });
-        // 当鼠标移出图片时，恢复到正常图像
         avatar.addEventListener('mouseout', function() {
           this.src = this.getAttribute('data-normal');
         });
