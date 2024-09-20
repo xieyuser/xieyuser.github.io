@@ -21,7 +21,8 @@ repository               : "xieyuser/xieyuser.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "xieyuser.jpg"
+  hoveravatar      : "xieyuser.jpg"
+  avatar           : "xieyuser2.jpg"
   name             : "Yusen XIE"
   pronouns         : "he/him"
   bio              : "SLAM, Computer Vision, Autonomous Driving"
