@@ -20,3 +20,5 @@ News
 ===
 * [2024.06] Our paper "MCGMapper: Light-Weight Incremental Structure from Motion and Visual Localization With Planar Markers and Camera Groups" has been accepted by IROS 2024!
 * [2024.01] Our paper "PnPMapper: Light-Weight Incremental Structure from Motion and Visual Localization With Planar Markers and Camera Groups" has been rejected by ICRA 2024!
+
+

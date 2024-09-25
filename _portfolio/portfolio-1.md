@@ -6,6 +6,7 @@ collection: portfolio
 
 Utilize the stereo camera and solid-state LiDAR carried by the jet bridge, and through the principle of multi-sensor fusion, real-time estimate the door pose and complete the jet bridge navigation docking procedure. Successfully completed first fully automatic aircraft jet bridge guidance system in Asia. It has been developed in major airports nationwide with significant results.
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +18,7 @@ Utilize the stereo camera and solid-state LiDAR carried by the jet bridge, and t
             margin: 0 auto;
             max-width: 100%;
             height: auto;
-            transition: transform 0.2s ease-in-out;
+            transition: transform 0.2s ease;
         }
         .image-link:hover {
             transform: scale(1.1); /* 放大图片 */
@@ -33,7 +34,7 @@ Utilize the stereo camera and solid-state LiDAR carried by the jet bridge, and t
 </head>
 <body>
     <a href="https://www.cimc-tianda.com/new/info.aspx?itemid=3295" target="_blank">
-        <img src="/images/adam.jpg" alt="Click to visit the link" class="image-link">
+        <img src="/images/adam.jpg" alt="Click to visit the link" class="image-link" title="Click to visit the link">
     </a>
 </body>
 </html>
