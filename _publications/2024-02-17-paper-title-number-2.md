@@ -11,7 +11,10 @@ image_path: '/images/book.png'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
-[Paper Link](https://ieeexplore.ieee.org/document/9456499)
+<div>
+    <a href="https://ieeexplore.ieee.org/document/9456499" target="_blank">Paper Link</a>
+</div>
+
 
 ## Abstract
 At present, in the large-scale book management
