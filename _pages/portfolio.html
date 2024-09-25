@@ -1,14 +1,67 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Example</title>
+    <!-- 这里可以添加CSS样式 -->
+    <style>
+        .image-link {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.2s ease-in-out;
+        }
+        .image-link:hover {
+            transform: scale(1.1); /* 放大图片 */
+            cursor: pointer;
+        }
+        .clickable-text {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        .title {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .description {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Fully automatic aircraft jet bridge docking guidance system</h1>
+    <p class="description">
+        Utilize the stereo camera and solid-state LiDAR carried by the jet bridge, and through the principle of multi-sensor fusion, real-time estimate the door pose and complete the jet bridge navigation docking procedure. Successfully completed first fully automatic aircraft jet bridge guidance system in Asia. It has been developed in major airports nationwide with significant results.
+    </p>
+    <a href="https://www.cimc-tianda.com/new/info.aspx?itemid=3295" target="_blank">
+        <img src="/images/adam.jpg" alt="Click to visit the link" class="image-link">
+    </a>
+    <br><br>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+    <h1 class="title">Fully autonomous navigation of a warehouse inventory robot</h1>
+    <p class="description">
+        Place multiple markers in the indoor warehouse, achieve global localization and real-time pose tracking of the car. 
+        Then controlling the autonomous movement of the robot to complete the unmanned inventory of the warehouse. 
+        Through the Road Network path management and pure pursuit path tracking algorithm, along with the robot control module, 
+        the inspection robot's functions can be independently completed, achieving the intelligent and flexible transformation of the warehouse. 
+        It has been developed in several warehouses nationwide.
+    </p>
+    <a href="https://www.cmhk.com/main/a/2023/l15/a46536_49726.shtml" target="_blank">
+        <img src="/images/ikea.jpg" alt="Click to visit the link" class="image-link">
+    </a>
+</body>
+</html>
