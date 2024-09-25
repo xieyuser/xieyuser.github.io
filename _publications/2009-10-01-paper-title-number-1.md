@@ -7,9 +7,12 @@ excerpt: 'This paper is about calibration of solid-state LiDAR and camera.'
 date: 2022-7-01
 venue: 'IEEE Robotics and Automation Letters ( Volume: 7, Issue: 3, July 2022)'
 # slidesurl: 'https://ieeexplore.ieee.org/document/9770363'
-paperurl: 'https://ieeexplore.ieee.org/document/9770363'
+image_path: '/images/a4lidartag.png'
+# paperurl: 'https://ieeexplore.ieee.org/document/9456499'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
+
+[Paper Link]('https://ieeexplore.ieee.org/document/9770363')
 
 ## Abstract
 

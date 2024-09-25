@@ -6,9 +6,13 @@ category: conferences
 excerpt: 'This paper is about book information extraction system for automated intelligence library.'
 date: 2024-06-31
 venue: ' 2021 IEEE International Conference on Artificial Intelligence and Industrial Design (AIID). 28 May- 30 May 2021 | Guangzhou, China'
-paperurl: 'https://ieeexplore.ieee.org/document/9456499'
+image_path: '/images/book.png'
+# paperurl: 'https://ieeexplore.ieee.org/document/9456499'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
+
+[Paper Link](https://ieeexplore.ieee.org/document/9456499)
+
 ## Abstract
 At present, in the large-scale book management
 scene, book sorting, daily maintenance and book retrieval are very
@@ -38,8 +42,12 @@ detection speed, Yolov5 detection model was improved and the
 statistical-based pre-pruning strategy was adopted, support by our
 algorithm the system reaches 2.09 FPS in book price recognition,
 which improves the detection speed to meet actual needs.
+
+
 ## Overview
 ![](/images/book.png)
+
+
 ## Citation
 ``` text
 @INPROCEEDINGS{9456499,
