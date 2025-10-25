@@ -1,0 +1,122 @@
+---
+layout: archive
+title: "Talks and presentations"
+permalink: /talks/
+author_profile: true
+---
+
+{% if site.talkmap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+
+{% endif %}
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
+
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>wxq & xys</title>
+    <link rel="shortcut icon" href="https://www.xfabe.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 创建雪花画布 -->
+    <canvas class="xf_canvas" speed=".4" size="5" count="30" wind-power=".4"></canvas>
+    <!-- 音乐播放器 （这里替换音乐） -->
+    <!-- <audio class="xf_music" src="Jingle.mp3" autoplay="autoplay" loop="loop" controls="controls"></audio>-->
+    <section>
+        <!-- 左侧盒子 （这里替换图片） -->
+        <div class="xf_left_box">
+            <!-- 1 -->
+            <ul class="xf_rotate_1 xf_public">
+                <li><img src="img/1.webp" alt="xf-picture"></li>
+                <li><img src="img/2.webp" alt="xf-picture"></li>
+                <li><img src="img/3.webp" alt="xf-picture"></li>
+                <li><img src="img/4.webp" alt="xf-picture"></li>
+            </ul>
+            <!-- 2 -->
+            <ul class="xf_rotate_2 xf_public">
+                <li><img src="img/5.webp" alt="xf-picture"></li>
+                <li><img src="img/6.webp" alt="xf-picture"></li>
+                <li><img src="img/7.webp" alt="xf-picture"></li>
+                <li><img src="img/8.webp" alt="xf-picture"></li>
+                <li><img src="img/9.webp" alt="xf-picture"></li>
+                <li><img src="img/10.webp" alt="xf-picture"></li>
+            </ul>
+            <!-- 3 -->
+            <ul class="xf_rotate_3 xf_public">
+                <li><img src="img/11.webp" alt="xf-picture"></li>
+                <li><img src="img/12.webp" alt="xf-picture"></li>
+                <li><img src="img/13.webp" alt="xf-picture"></li>
+                <li><img src="img/14.webp" alt="xf-picture"></li>
+                <li><img src="img/15.webp" alt="xf-picture"></li>
+                <li><img src="img/16.webp" alt="xf-picture"></li>
+                <li><img src="img/17.webp" alt="xf-picture"></li>
+                <li><img src="img/18.webp" alt="xf-picture"></li>
+            </ul>
+            <!-- 4 -->
+            <ul class="xf_rotate_4 xf_public">
+                <li><img src="img/19.webp" alt="xf-picture"></li>
+                <li><img src="img/20.webp" alt="xf-picture"></li>
+                <li><img src="img/21.webp" alt="xf-picture"></li>
+                <li><img src="img/22.webp" alt="xf-picture"></li>
+                <li><img src="img/23.webp" alt="xf-picture"></li>
+                <li><img src="img/24.webp" alt="xf-picture"></li>
+                <li><img src="img/25.webp" alt="xf-picture"></li>
+                <li><img src="img/26.webp" alt="xf-picture"></li>
+                <li><img src="img/27.webp" alt="xf-picture"></li>
+                <li><img src="img/28.webp" alt="xf-picture"></li>
+            </ul>
+            <!-- 5 -->
+            <ul class="xf_rotate_5 xf_public">
+                <li><img src="img/29.webp" alt="xf-picture"></li>
+                <li><img src="img/30.webp" alt="xf-picture"></li>
+                <li><img src="img/31.webp" alt="xf-picture"></li>
+                <li><img src="img/32.webp" alt="xf-picture"></li>
+                <li><img src="img/33.webp" alt="xf-picture"></li>
+                <li><img src="img/34.webp" alt="xf-picture"></li>
+                <li><img src="img/35.webp" alt="xf-picture"></li>
+                <li><img src="img/36.webp" alt="xf-picture"></li>
+                <li><img src="img/37.webp" alt="xf-picture"></li>
+                <li><img src="img/38.webp" alt="xf-picture"></li>
+                <li><img src="img/39.webp" alt="xf-picture"></li>
+                <li><img src="img/40.webp" alt="xf-picture"></li>
+            </ul>
+        </div>
+        <!-- 右侧盒子 -->
+        <div class="xf_right_box">
+            <!-- 仅支持英文字体 -->
+            <h1 class="xf_title">Happy 2022 for my gril</h1>
+            <!-- 这里替换视频 -->
+            <video class="xf_video" autoplay="autoplay" loop="loop" muted="muted" x5-playsinline="true" webkit-playsinline="true" controls="controls" playsinline="true">
+                <!-- 这里替换视频 -->
+                <source src="1247461573.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+    <script src="snow.js"></script>
+    <script>
+        // 显示盒子
+        $(document).ready(function () {
+            $(".xf_left_box").fadeIn(2000)
+            $(".xf_title").fadeIn(3000)
+            $(".xf_video").fadeIn(5000)
+        })
+        // 判断是否在微信内打开页面
+        let xf_wx = window.navigator.userAgent.toLowerCase()
+        if (xf_wx.match(/MicroMessenger/i) == 'micromessenger') {
+            alert('建议绣花使用浏览器打开此页面~')
+        }
+    </script>
+</body>
+
+</html>
