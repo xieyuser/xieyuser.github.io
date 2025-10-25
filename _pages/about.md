@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Human who invented humans must have won the Nobel Prize"
+title: "Overview"
 author_profile: true
 redirect_from: 
   - /about/
